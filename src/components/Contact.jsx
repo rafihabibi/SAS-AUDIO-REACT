@@ -1,0 +1,27 @@
+import ContactForm from "./ContactForm.jsx";
+import Mixer from "../assets/backgroundMixer.jpg";
+import Logo from "../assets/logo.png";
+
+export default function ContactUs() {
+  return (
+    <section
+      className="bg-cover bg-center min-h-screen relative"
+      style={{ backgroundImage: `url(${Mixer})` }}>
+      <div className="relative bg-black/70 min-h-screen py-10 flex items-center justify-center">
+        <div className="text-white w-full px-3 pt-24">
+          <div className="flex flex-col items-center justify-center px-4">
+            <img src={Logo} alt="Image Logo" className="w-40" />
+            <h1 className="text-3xl md:text-5xl text-center font-bold md:px-0 py-2 text-white font-heading">
+              Siap Wujudkan <span className="text-yellow-500">Tata Suara</span>{" "}
+              Sempurna di Tempat Anda?
+            </h1>
+            <h2 className="font-medium text-base md:text-3xl text-gray-300 font-body">
+              Konsultasi sekarang, 100% Gratis!
+            </h2>
+          </div>
+          <ContactForm />
+        </div>
+      </div>
+    </section>
+  );
+}
