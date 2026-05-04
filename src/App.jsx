@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import { Routes, Route } from "react-router-dom";
 import ContactUs from "./pages/ContactUs.jsx";
 import Layanan from "./pages/Layanan.jsx";
+import FloatingWA from "./components/FloatingWA.jsx";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/layanan" element={<Layanan />}></Route>
       </Routes>
       <Footer />
+      <FloatingWA />
     </>
   );
 }
