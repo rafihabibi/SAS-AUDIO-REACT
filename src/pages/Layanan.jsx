@@ -18,7 +18,7 @@ export default function Layanan() {
               Layanan <span className="text-yellow-500">Profesional</span> SAS
               Audio
             </h1>
-            <h2 className="font-semibold text-base text-white/80  font-body">
+            <h2 className="font-semibold text-base text-white/80 font-body">
               Solusi menyeluruh dari instalasi hingga kalibrasi audio.
             </h2>
           </div>
@@ -27,7 +27,7 @@ export default function Layanan() {
       <section className="w-full mx-auto bg-gray-900 text-white">
         <div className="container flex flex-col-reverse md:flex-row items-center justify-center gap-10 py-10 px-4">
           <div className="w-full md:w-1/2 border border-none rounded-md px-4 text-justify">
-            <h2 className="flex items-center justify-center md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
+            <h2 className="flex items-center justify-center font-heading md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
               <span className="flex shrink-0 items-center justify-center border rounded-full w-10 h-10 bg-yellow-500 border-none py-1 text-black">
                 1
               </span>
@@ -100,7 +100,7 @@ export default function Layanan() {
         </div>
         <div className="container flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10 py-10 px-4">
           <div className="w-full md:w-1/2 border border-none rounded-md px-4 text-justify">
-            <h2 className="flex items-center justify-center md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
+            <h2 className="flex items-center justify-center font-heading md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
               <span className="flex shrink-0 items-center justify-center border rounded-full w-10 h-10 bg-yellow-500 border-none py-1 text-black">
                 2
               </span>
@@ -176,7 +176,7 @@ export default function Layanan() {
         </div>
         <div className="container flex flex-col-reverse md:flex-row items-center justify-center gap-10 py-10 px-4">
           <div className="w-full md:w-1/2 border border-none rounded-md px-4 text-justify">
-            <h2 className="flex items-center justify-center md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
+            <h2 className="flex items-center justify-center font-heading md:justify-start gap-3 font-bold text-left py-2 text-2xl md:text-3xl text-white mt-2">
               <span className="flex shrink-0 items-center justify-center border rounded-full w-10 h-10 bg-yellow-500 border-none py-1 text-black">
                 3
               </span>
