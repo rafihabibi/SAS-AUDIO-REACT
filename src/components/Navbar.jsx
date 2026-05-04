@@ -68,7 +68,7 @@ export default function Navbar() {
           Layanan
         </NavLink>
         <NavLink
-          to="#"
+          to="/portofolio"
           className={({ isActive }) =>
             `${isActive ? "text-yellow-500" : "text-white"} hover:text-yellow-500 transition-all`
           }>
